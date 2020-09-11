@@ -1,2 +1,4 @@
-# data-structures-algorithm-analysis
-数据结构与算法分析（Java）课本代码和课后习题
+# 数据结构与算法分析（Java）课本代码和课后习题
+## 学习进度
+· 20200911 第一章
+ 
