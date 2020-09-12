@@ -14,8 +14,4 @@ public class Solution {
             return oneCount(n / 2) + 1;
         }
     }
-
-//    public static void main(String[] args) {
-//        System.out.println(new Solution().oneCount(Integer.MIN_VALUE));
-//    }
 }

@@ -4,9 +4,13 @@ import java.util.Comparator;
 import java.util.Set;
 import java.util.TreeSet;
 
+/**
+ * 自定义排序集和类
+ * @param <T>
+ */
 public class OrderedCollection <T> {
-    Set<T> collection;
-    Comparator comparator;
+    private Set<T> collection;
+    private Comparator comparator;
 
     public OrderedCollection(Comparator<T> com) {
         comparator = com;

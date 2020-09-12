@@ -1,6 +1,7 @@
-package chapter1.question15;
+package chapter1;
 
 import chapter1.question14.OrderedCollection;
+import chapter1.question15.Rectangle;
 
 public class Solution {
     public static void main(String[] args) {

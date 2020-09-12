@@ -32,8 +32,4 @@ public class Solution {
         }
         System.out.print(n);
     }
-
-    public static void main(String[] args) {
-        new Solution().printOut(23455.3131223143436);
-    }
 }

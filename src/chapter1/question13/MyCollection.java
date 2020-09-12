@@ -3,6 +3,10 @@ package chapter1.question13;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * 自定义的集合类
+ * @param <T>
+ */
 public class MyCollection <T> {
     private List<T> list;
 

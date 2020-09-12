@@ -29,8 +29,4 @@ public class Solution {
             indexes.remove(new Integer(i));
         }
     }
-
-//    public static void main(String[] args) {
-//        new Solution().permute("abcd");
-//    }
 }

@@ -1,5 +1,8 @@
 package chapter1.question15;
 
+/**
+ * 长方形类
+ */
 public class Rectangle {
     private double width;
     private double height;

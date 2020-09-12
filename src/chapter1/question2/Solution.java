@@ -42,9 +42,4 @@ public class Solution {
         if (i >= 0 && i < board.length && j >= 0 && j < board[0].length) return true;
         return false;
     }
-
-//    public static void main(String[] args) {
-//        char[][] board = {{'t', 'h', 'i', 's'}, {'w', 'a', 't', 's'}, {'o', 'a', 'h', 'g'}, {'f', 'g', 'd', 't'}};
-//        System.out.println(new Solution().findWords(board, "oran"));
-//    }
 }
