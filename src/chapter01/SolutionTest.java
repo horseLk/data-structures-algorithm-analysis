@@ -3,7 +3,7 @@ package chapter01;
 import chapter01.question14.OrderedCollection;
 import chapter01.question15.Rectangle;
 
-public class Solution {
+public class SolutionTest {
     public static void main(String[] args) {
         OrderedCollection<Rectangle> areaOrdered = new OrderedCollection((r1, r2) -> {
             Rectangle rr1 = (Rectangle) r1;

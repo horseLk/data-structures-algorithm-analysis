@@ -14,7 +14,7 @@ import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
 
-public class ResultTest {
+public class SolutionTest {
     public static void main(String[] args) {
         // 3.2 单链表测试
 //        SingleNode<Integer> tail = new SingleNode<>(2);
