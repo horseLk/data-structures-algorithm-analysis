@@ -23,23 +23,40 @@ public class JudgeBST<T extends Comparable<? super T>> {
     public boolean isBST(Node<T> root) {
         if (root == null) return true;
         if (root.left != null && root.right != null) {
-            if (root.element.compareTo(root.left.element) > 0 && root.element.compareTo(root.right.element) < 0) {
+            if (root.element.compareTo(findMax(root.left)) > 0 &&
+                    root.element.compareTo(findMin(root.right)) < 0) {
                 return isBST(root.left) && isBST(root.right);
             }
             return false;
         }
         if (root.left != null) {
-            if (root.element.compareTo(root.left.element) > 0) {
+            if (root.element.compareTo(findMax(root.left)) > 0) {
                 return isBST(root.left);
             }
             return false;
         }
         if (root.right != null) {
-            if (root.element.compareTo(root.right.element) < 0) {
+            if (root.element.compareTo(findMin(root.right)) < 0) {
                 return isBST(root.right);
             }
             return false;
         }
         return true; // 两个子节点都为空
+    }
+
+    private T findMin(Node<T> node) {
+        if (node == null) return null;
+        while (node.left != null) {
+            node = node.left;
+        }
+        return node.element;
+    }
+
+    private T findMax(Node<T> node) {
+        if (node == null) return null;
+        while (node.right != null) {
+            node = node.right;
+        }
+        return node.element;
     }
 }
